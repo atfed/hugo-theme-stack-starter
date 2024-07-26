@@ -43,7 +43,7 @@ If you want to build this site using another static page hosting, you need to ma
 <details>
   <summary>Vercel</summary>
   
-You need to overwrite build command to install manually Go:
+You need to overwrite build command to manually install Go:
 
 ```
 amazon-linux-extras install golang1.11 && hugo --gc --minify
